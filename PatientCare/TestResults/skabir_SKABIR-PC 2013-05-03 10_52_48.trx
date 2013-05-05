@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="7353297e-09b3-48c2-9cb8-587c0a5b21be" name="skabir@SKABIR-PC 2013-05-03 10:52:48" runUser="skabir-PC\skabir" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="aa7764be-e4c3-41d9-ab9b-11da78fdb643">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="skabir_SKABIR-PC 2013-05-03 10_52_48">
+      <DeploymentItem filename="E:\Skabir\Personal\PatientCare\PatientCare\packages\EntityFramework.5.0.0\lib\net40\EntityFramework.dll" />
+      <DeploymentItem filename="E:\Skabir\Personal\PatientCare\PatientCare\DataLayer\bin\Debug\DataLayer.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2013-05-03T10:52:48.7142254+06:00" queuing="2013-05-03T10:52:51.3194300+06:00" start="2013-05-03T10:52:51.3662301+06:00" finish="2013-05-03T10:52:55.7030377+06:00" />
+  <ResultSummary outcome="Inconclusive">
+    <Counters total="1" executed="1" error="0" failed="0" timeout="0" aborted="0" inconclusive="1" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="DB_SERVERConstructorTest" storage="e:\skabir\personal\patientcare\patientcare\testproject1\bin\debug\testproject1.dll" id="a8134b9d-f225-3eed-be21-8e9969f07cfc">
+      <Execution id="3317cc27-1318-4de9-bda9-898380238e89" />
+      <TestMethod codeBase="E:/Skabir/Personal/PatientCare/PatientCare/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.DB_SERVERTest, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="DB_SERVERConstructorTest" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="a8134b9d-f225-3eed-be21-8e9969f07cfc" executionId="3317cc27-1318-4de9-bda9-898380238e89" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="3317cc27-1318-4de9-bda9-898380238e89" testId="a8134b9d-f225-3eed-be21-8e9969f07cfc" testName="DB_SERVERConstructorTest" computerName="SKABIR-PC" duration="00:00:02.4067083" startTime="2013-05-03T10:52:51.3974301+06:00" endTime="2013-05-03T10:52:54.0338347+06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Inconclusive" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="3317cc27-1318-4de9-bda9-898380238e89">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.Inconclusive failed. TODO: Implement code to verify target</Message>
+          <StackTrace>   at TestProject1.DB_SERVERTest.DB_SERVERConstructorTest() in E:\Skabir\Personal\PatientCare\PatientCare\TestProject1\DB_SERVERTest.cs:line 76
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

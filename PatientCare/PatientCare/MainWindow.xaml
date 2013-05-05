@@ -1,0 +1,31 @@
+﻿<Window x:Class="PatientCare.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="700" Width="800" WindowState="Normal" WindowStartupLocation="CenterScreen" WindowStyle="SingleBorderWindow" ResizeMode="CanResize" Topmost="False" >
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="50"/>
+            <RowDefinition Height="300*"/>
+        </Grid.RowDefinitions>
+        <Menu  Margin="0" Grid.Row="0">
+            <MenuItem Header="File">
+                <MenuItem Header="New" Name="mnuAddNewPatient" Command="{Binding Path=AddNewPatientCommand}" ></MenuItem>
+                <MenuItem Header="Open" Name="mnuShowPatient" Command="{Binding Path=ShowPatientsCommand}"></MenuItem>
+                <MenuItem Header="Close" Name="mnuClosePatient" Command="{Binding Path=ClosePatientCommand}"></MenuItem>
+                <MenuItem Header="Exit" Command="{Binding Path=ApplicationExitCommand}"></MenuItem>
+            </MenuItem>
+            <MenuItem Header="Options">
+                <MenuItem >
+                    <MenuItem Header="Green" Tag="Green" Command="{Binding ThemeChangeCommand}" CommandParameter="Green" ></MenuItem>
+                    <MenuItem Header="Red" Tag="Red" Command="{Binding ThemeChangeCommand}" CommandParameter="Red"></MenuItem>
+                    <MenuItem Header="Blue" Tag="Blue" Command="{Binding ThemeChangeCommand}" CommandParameter="Blue"></MenuItem>
+                    <MenuItem Header="White" Tag="White" Command="{Binding ThemeChangeCommand}" CommandParameter="White"></MenuItem>
+                </MenuItem>
+            </MenuItem>
+        </Menu>
+        <DockPanel x:Name="mainPanel"  Grid.Row="1" VerticalAlignment="Top" Grid.RowSpan="1" HorizontalAlignment="Stretch" Margin="5" Width="auto" >
+
+        </DockPanel>
+        <Separator Margin="0,0,0,0" VerticalAlignment="Bottom" Height="10" />
+    </Grid>
+</Window>

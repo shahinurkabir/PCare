@@ -1,0 +1,10 @@
+E:\Skabir\Personal\PatientCare\PatientCare\TestProject1\bin\Debug\TestProject1.dll.config
+E:\Skabir\Personal\PatientCare\PatientCare\TestProject1\bin\Debug\TestProject1.dll
+E:\Skabir\Personal\PatientCare\PatientCare\TestProject1\bin\Debug\TestProject1.pdb
+E:\Skabir\Personal\PatientCare\PatientCare\TestProject1\bin\Debug\DataLayer.dll
+E:\Skabir\Personal\PatientCare\PatientCare\TestProject1\bin\Debug\EntityFramework.dll
+E:\Skabir\Personal\PatientCare\PatientCare\TestProject1\bin\Debug\DataLayer.pdb
+E:\Skabir\Personal\PatientCare\PatientCare\TestProject1\bin\Debug\EntityFramework.xml
+E:\Skabir\Personal\PatientCare\PatientCare\TestProject1\obj\Debug\ResolveAssemblyReference.cache
+E:\Skabir\Personal\PatientCare\PatientCare\TestProject1\obj\Debug\TestProject1.dll
+E:\Skabir\Personal\PatientCare\PatientCare\TestProject1\obj\Debug\TestProject1.pdb

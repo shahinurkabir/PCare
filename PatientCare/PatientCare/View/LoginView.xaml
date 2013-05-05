@@ -1,0 +1,33 @@
+﻿<Window x:Class="PatientCare.View.LoginView"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:commonWPF="clr-namespace:PatientCare.UtilityClass"
+        Title="User Login" Height="250" Width="400" WindowStartupLocation="CenterScreen" WindowStyle="ToolWindow" ResizeMode="NoResize" WindowState="Normal">
+    <Grid Margin="10" Height="auto">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="50"></RowDefinition>
+            <RowDefinition Height="35"></RowDefinition>
+            <RowDefinition Height="35"></RowDefinition>
+            <RowDefinition Height="35"></RowDefinition>
+            <RowDefinition Height="30"></RowDefinition>
+            <!--<RowDefinition Height="30"></RowDefinition>-->
+        </Grid.RowDefinitions>
+        <DockPanel Height="30" Grid.Row="1" Margin="2">
+            <TextBlock Width="130" TextAlignment="Left">User Name</TextBlock>
+            <TextBox Name="txtUserName" Width="200" HorizontalAlignment="Left" Text="{Binding UserName, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"></TextBox>
+        </DockPanel>
+        <DockPanel Height="30" Grid.Row="2" Margin="2">
+            <TextBlock Width="130" TextAlignment="Left">User Password</TextBlock>
+            <PasswordBox Name="txtPassword"  PasswordChar="*"  Width="200" HorizontalAlignment="Left"   commonWPF:PasswordHelper.Attach="True" 
+         commonWPF:PasswordHelper.Password="{Binding Password, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"></PasswordBox>
+        </DockPanel>
+        <DockPanel Height="auto" Grid.Row="3" VerticalAlignment="Center" HorizontalAlignment="left" Margin="130,0,0,0">
+            <Button Name="btnLogin" Content="OK" Width="75" Height="28"  Command="{Binding LoginCommand}"></Button>
+            <Button Name="btnClose" Content="Close" Width="75" Height="28" Command="{Binding CancelLoginCommand}"></Button>
+        </DockPanel>
+        <DockPanel Height="35" Grid.Row="4" >
+            <TextBlock Foreground="Red"  Padding="5" FontStyle="Normal"  FontSize="15" Text="{Binding LoginError}"></TextBlock>
+        </DockPanel>
+
+    </Grid>
+</Window>

@@ -1,0 +1,8 @@
+E:\Skabir\Personal\PatientCare\PatientCare\DataLayer\bin\Debug\DataLayer.dll.config
+E:\Skabir\Personal\PatientCare\PatientCare\DataLayer\bin\Debug\DataLayer.dll
+E:\Skabir\Personal\PatientCare\PatientCare\DataLayer\bin\Debug\DataLayer.pdb
+E:\Skabir\Personal\PatientCare\PatientCare\DataLayer\bin\Debug\EntityFramework.dll
+E:\Skabir\Personal\PatientCare\PatientCare\DataLayer\bin\Debug\EntityFramework.xml
+E:\Skabir\Personal\PatientCare\PatientCare\DataLayer\obj\Debug\ResolveAssemblyReference.cache
+E:\Skabir\Personal\PatientCare\PatientCare\DataLayer\obj\Debug\DataLayer.dll
+E:\Skabir\Personal\PatientCare\PatientCare\DataLayer\obj\Debug\DataLayer.pdb
