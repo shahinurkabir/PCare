@@ -4,16 +4,16 @@
 winexe
 C#
 .cs
-E:\Skabir\Personal\PatientCare\PatientCare\PatientCare\obj\x86\Debug\
+C:\Users\SKabir\Documents\GitHub\PCare\PatientCare\PatientCare\obj\x86\Debug\
 PatientCare
 none
 false
 DEBUG;TRACE
-E:\Skabir\Personal\PatientCare\PatientCare\PatientCare\App.xaml
+C:\Users\SKabir\Documents\GitHub\PCare\PatientCare\PatientCare\App.xaml
 111853193866
 
-24-799467472
-161033464379
+24145738497
+16-452711972
 MainWindow.xaml;Styles\Blue.xaml;Styles\Green.xaml;Styles\Red.xaml;Styles\White.xaml;View\DoctorListView.xaml;View\LoginView.xaml;View\PatientAddressInfo.xaml;View\PatientDetailInfo.xaml;View\PatientView.xaml;View\PatientListView.xaml;
 
 True
